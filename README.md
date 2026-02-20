@@ -196,7 +196,7 @@ SHOW VARIABLES LIKE 'max_prepared_stmt_count';
 
 ### 이 구현체 사용 시
 - `cachePrepStmts=false` 필수 (드라이버 캐시와 충돌 방지)
-- `useServerPrepStmts=true` 권장 (MySQL 서버 레벨 캐시 활용)
+- `useServerPrepStmts=true` 권장 (MySQL 서버 레벨 캐시 활용 = 서버 측 실행 계획 재사용)
 
 ---
 
