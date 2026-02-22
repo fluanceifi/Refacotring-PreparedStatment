@@ -1,5 +1,6 @@
 # PreparedStatement 공유 캐시 구현
 
+> [KaKaoPay 테크 블로그 (PreparedStatement는 어떻게 동작하고 있는가)](https://tech.kakaopay.com/post/how-preparedstatement-works-in-our-apps/) 에서 학습한 내용을 기반한
 > MySQL Connector/J의 한계를 넘어, 커넥션 간 PreparedStatement 캐시를 공유하는 구현체
 
 ---
